@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  *
  * @author qun
  */
-@FeignClient(value = "service-hi")
+@FeignClient(value = "service-hi",fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHi {
     /**
      * 调用其他服务

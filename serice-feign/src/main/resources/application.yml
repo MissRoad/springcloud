@@ -1,6 +1,5 @@
 server:
   port: 8005
-
 spring:
   application:
     name: service-feign
@@ -9,3 +8,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8001/eureka/
+#打开断路器
+feign.hystrix.enabled: true

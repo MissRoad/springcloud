@@ -1,0 +1,35 @@
+server:
+  port: 8007
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          #配置git仓库地址
+          #          uri: https://github.com/MissRoad/springcloud
+          uri: https://github.com/forezp/SpringcloudConfig/
+          #配置仓库路径
+          search-paths: respo
+          #访问git仓库的用户名和密码，若为公共仓库则不需要填写
+          username:
+          password:
+           #配置仓库的分支
+      label: master
+
+
+#http请求地址和资源文件映射如下:
+#
+#  /{application}/{profile}[/{label}]
+#  /{application}-{profile}.yml
+#  /{label}/{application}-{profile}.yml
+#  /{application}-{profile}.properties
+#  /{label}/{application}-{profile}.properties
+

@@ -1,6 +1,6 @@
 ### 正在学习搭建**springcloud**微服务
 
-学习的链接是 [方志敏大神的springcloud教程](https://www.fangzhipeng.com/spring-cloud.html)
+学习的链接是 [方志朋大神的springcloud教程](https://www.fangzhipeng.com/spring-cloud.html)
 
 #### 史上最简单的 SpringCloud 教程
 
