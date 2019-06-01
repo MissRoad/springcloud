@@ -14,8 +14,7 @@ spring:
       server:
         git:
           #配置git仓库地址
-          #          uri: https://github.com/MissRoad/springcloud
-          uri: https://github.com/forezp/SpringcloudConfig/
+          uri: https://gitee.com/lunars/SpringCloudConfig
           #配置仓库路径
           search-paths: respo
           #访问git仓库的用户名和密码，若为公共仓库则不需要填写

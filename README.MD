@@ -10,15 +10,15 @@
 
 - [x]  | [第三篇: 服务消费者（Feign）(Finchley版本)](http://blog.csdn.net/forezp/article/details/69808079)
 
-- [ ]  | [第四篇:断路器（Hystrix）(Finchley版本)](http://blog.csdn.net/forezp/article/details/69934399)
+- [x]  | [第四篇:断路器（Hystrix）(Finchley版本)](http://blog.csdn.net/forezp/article/details/69934399)
 
-- [ ]  | [第五篇: 路由网关(zuul)(Finchley版本)](http://blog.csdn.net/forezp/article/details/69939114)
+- [x]  | [第五篇: 路由网关(zuul)(Finchley版本)](http://blog.csdn.net/forezp/article/details/69939114)
 
-- [ ]  | [第六篇: 分布式配置中心(Spring Cloud Config)(Finchley版本)](http://blog.csdn.net/forezp/article/details/70037291)
+- [x]  | [第六篇: 分布式配置中心(Spring Cloud Config)(Finchley版本)](http://blog.csdn.net/forezp/article/details/70037291)
 
-- [ ]  | [第七篇: 高可用的分布式配置中心(Spring Cloud Config)(Finchley版本)](http://blog.csdn.net/forezp/article/details/70037513)
+- [x]  | [第七篇: 高可用的分布式配置中心(Spring Cloud Config)(Finchley版本)](http://blog.csdn.net/forezp/article/details/70037513)
 
-- [ ]  | [第八篇: 消息总线(Spring Cloud Bus)(Finchley版本)](http://blog.csdn.net/forezp/article/details/81041062)
+- [x]  | [第八篇: 消息总线(Spring Cloud Bus)(Finchley版本)](http://blog.csdn.net/forezp/article/details/81041062)
 
 - [ ]  | [第九篇: 服务链路追踪(Spring Cloud Sleuth)(Finchley版本)](http://blog.csdn.net/forezp/article/details/81041078)
 
