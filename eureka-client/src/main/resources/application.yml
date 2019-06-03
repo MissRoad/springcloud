@@ -18,3 +18,12 @@ eureka:
 logging:
   level:
     org.springframework.cloud.netflix.feign: debug
+
+#Failed opening connection to http://localhost:3334/hystrix.stream?delay=2000 : 404 : HTTP/1.1 404 
+#  Hystrix Dashboard 监控单实例节点需要通过访问实例的/actuator/hystrix.stream接口来实现，
+#自然我们需要为服务实例（被监控服务）添加这个 endpoint，修改服务实例的配置文件，添加对actuator的配置
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream # 或者'*'
