@@ -22,7 +22,12 @@ spring:
           password:
            #配置仓库的分支
       label: master
-
+  #    链路追踪
+  zipkin:
+    base-url: http://119.23.255.144:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 #http请求地址和资源文件映射如下:
 #

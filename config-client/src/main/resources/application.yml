@@ -4,6 +4,12 @@ spring:
     port: 5672
     username: guest
     password: guest
+  #    链路追踪
+  zipkin:
+    base-url: http://119.23.255.144:9411
+  sleuth:
+    sampler:
+      probability: 1
   cloud:
     bus:
       enabled: true

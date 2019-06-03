@@ -3,8 +3,18 @@ server:
 spring:
   application:
     name: service-hi
+#    链路追踪
+  zipkin:
+    base-url: http://119.23.255.144:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8001/eureka/
+
+logging:
+  level:
+    org.springframework.cloud.netflix.feign: debug

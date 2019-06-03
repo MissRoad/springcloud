@@ -9,6 +9,12 @@ eureka:
 spring:
   application:
     name: service-zuul
+  #    链路追踪
+  zipkin:
+    base-url: http://119.23.255.144:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 zuul:
   routes:

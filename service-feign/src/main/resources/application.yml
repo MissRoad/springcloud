@@ -3,6 +3,12 @@ server:
 spring:
   application:
     name: service-feign
+      #    链路追踪
+  zipkin:
+    base-url: http://119.23.255.144:9411
+  sleuth:
+    sampler:
+      probability: 1
 
 eureka:
   client:
@@ -10,3 +16,7 @@ eureka:
       defaultZone: http://localhost:8001/eureka/
 #打开断路器
 feign.hystrix.enabled: true
+
+logging:
+  level:
+    org.springframework.cloud.netflix.feign: debug
