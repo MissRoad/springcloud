@@ -8,7 +8,6 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.me</groupId>
     <artifactId>service-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service-gateway</name>
@@ -33,12 +32,6 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
@@ -50,7 +43,7 @@
 
         <!--redis限流-->
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
         </dependency>
 

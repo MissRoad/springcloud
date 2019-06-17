@@ -14,6 +14,7 @@ spring:
         uri: http://freezone.fun
         predicates:
         - Path=/zone
+        - After=2019-06-06T10:12:47.789+08:00[Asia/Shanghai]
       discovery:
         locator:
           enabled: true

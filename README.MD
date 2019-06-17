@@ -30,7 +30,7 @@
 
 - [ ]  | [第十四篇: Spring Cloud Gateway初体验](https://blog.csdn.net/forezp/article/details/83792388)
 
-- [ ]  | [第十五篇: Spring Cloud Gateway 之Predict篇](https://blog.csdn.net/forezp/article/details/84926662)
+- [x]  | [第十五篇: Spring Cloud Gateway 之Predict篇](https://blog.csdn.net/forezp/article/details/84926662)
 
 - [ ]  | [第十六篇: Spring Cloud Gateway 之filter篇](https://blog.csdn.net/forezp/article/details/85057268)
 
